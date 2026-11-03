@@ -1,0 +1,35 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Model files (large binary)
+models/*.joblib
+models/*.pkl
+
+# Dataset (large file)
+dataset/*.csv
+
+# OS
+.DS_Store
+Thumbs.db

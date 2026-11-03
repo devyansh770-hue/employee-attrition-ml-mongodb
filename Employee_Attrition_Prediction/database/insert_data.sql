@@ -1,0 +1,13 @@
+-- insert_data.sql
+-- NOTE: Data insertion is handled by the Python script database/insert_data.py
+-- which implements full idempotency using INSERT IGNORE and ON DUPLICATE KEY UPDATE.
+--
+-- This file exists for reference / documentation purposes.
+-- To populate the database, run:
+--   python database/insert_data.py
+--
+-- The Python script:
+--   1. Creates the schema from database/schema.sql
+--   2. Reads the IBM HR CSV
+--   3. Normalises and inserts into all 5 tables
+--   4. Is safe to run multiple times (idempotent)
